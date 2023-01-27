@@ -1,0 +1,24 @@
+{
+  "name": "email-verification-tool",
+  "version": "1.0.0",
+  "description": "A tool website which verify email exist or not",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "ravi sharma",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.3",
+    "email": "^0.2.6",
+    "email-deep-validator": "^3.3.0",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
